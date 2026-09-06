@@ -18,4 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 // 管理者ページ（ミドルウェア未適用 - 受講生が実装する）
-Route::get('/admin', [AdminController::class, 'index']);
+Route::middleware('checkadmin')->group(function () {
+    Route::get('/admin', [AdminController::class, 'index']);
+});
+
