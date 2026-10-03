@@ -16,6 +16,5 @@ COACHTECH 教材 Tutorial 10-2「ミドルウェア ハンズオン演習」で�
 
 ## 動作確認
 - http://localhost/ にアクセス
-- それぞれでログイン
-  管理者: admin@example.com / password 管理者ページ表示されることを確認
-  一般: user@example.com / password　「403権限ありません」表示されることを確認
+- 管理者: admin@example.com / password 管理者ページ表示されることを確認
+- 一般: user@example.com / password　「403権限ありません」表示されることを確認
